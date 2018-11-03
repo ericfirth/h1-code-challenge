@@ -1,0 +1,8 @@
+const explanation = {
+  whatIMade:
+    'When I opened the CSV, I was struck by how many of the data field, while I’m sure had meaning to LendingClub, were tough for me to make out. I know I didn’t have that much time, so I figured I’d go about answering whatever my first questions about the data were.\n I was most curious about how much people needed the loan for and why. I noticed the reason was a mess and it probably wouldn’t be very easy to clean all that data up, but I did notice an salary column. This being right before and after the 2008 financial crisis I was curious if people were asking to borrowing more money than would be wise. So I decided to use that data.\nI thought maybe a pie chart but then I noticed there was state data, how long they’ve been employed and whether than owned a home. I thought it would be interesting to see how much people were borrowing vs. their income across those categories.',
+  whatIdDoDifferent:
+    'I’ve always wanted to learn d3 and I decided at first to use this as an excuse to learn d3. I looked through a few tutorials and copy/pasted some code and generally used a few hours learning before I realized that I won’t have anything by the deadline if I don’t switch to Highcharts, a library I’ve used in the past.\nUnfortunately, that extra time, would have been useful telling a better story. I don’t think the story of income vs. loan amount is that interesting because Lending Tree provides small loans. So the story of the financial crisis or of over-debt, really couldn’t be told with this data. If I had more time, I’d spend less time worrying about learning a new library or presenting my data more interestingly and more time finding a good story to tell with the data.',
+};
+
+export default explanation;

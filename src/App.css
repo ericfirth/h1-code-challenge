@@ -32,8 +32,15 @@ form label {
 }
 
 .panel-text {
+  width: 750px;
+  margin: auto;
 }
 
 .panel-text.closed {
   height: 0;
+}
+
+.panel-text pre {
+      white-space: pre-wrap;
+      text-align: left;
 }

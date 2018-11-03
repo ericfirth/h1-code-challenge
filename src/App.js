@@ -5,6 +5,7 @@ import data from './loan-data.json';
 import Chart from './Chart';
 import Panel from './Panel';
 import { averageFrom, loanAmountsAndAnnualIncomesBy } from './helpers';
+import explanations from './explanations';
 
 const CATEGORIES = {
   byState: 'addr_state',
@@ -56,7 +57,7 @@ class App extends Component {
             }))
           }
           title="What I Made"
-          text="I opened the CSV and looked at the data I"
+          text={explanations.whatIMade}
         />
         <Panel
           opened={this.state.whatIdDoDifferentOpened}
@@ -66,7 +67,7 @@ class App extends Component {
             }))
           }
           title="What I'd Do Different"
-          text="..."
+          text={explanations.whatIdDoDifferent}
         />
         <form>
           <fieldset>
